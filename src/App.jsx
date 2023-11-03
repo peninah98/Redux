@@ -1,6 +1,7 @@
 import "./App.css";
 import Profile from "./componets/Profile";
 import Login from "./componets/Login";
+import ChangeColor from "./componets/ChangeColor";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <h1 className="text-4xl text-gray-400 ">React Redux</h1>
       <Profile/>
       <Login/>
+      <ChangeColor/>
     </div>
   );
 }

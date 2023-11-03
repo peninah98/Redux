@@ -5,10 +5,12 @@ import "./app.css";
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";
 import  useReducer  from "./features/user"
+import themeReducer from "./features/theme"
 
 const store = configureStore({
   reducer: {
-    user:useReducer
+    user:useReducer,
+    theme:themeReducer,
   }
 })
 
