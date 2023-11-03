@@ -9,7 +9,7 @@ function ChangeColor() {
       <input
         type="text"
         placeholder="Enter color"
-        className="text-gray-900 italic bg-white px-5 py-2 shadow-lg font-bold leading-9"
+        className="text-gray-900 italic bg-white px-12 py-2 shadow-lg font-bold leading-9"
         onChange={(event) => {
           setColor(event.target.value);
         }}
